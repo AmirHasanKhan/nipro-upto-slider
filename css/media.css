@@ -1,0 +1,201 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*top logo*/
+		.logo {
+		margin: 10px;
+		}
+		.l-top {
+	    display: none;
+	}
+		.menu ul li a{
+	  padding: 5px 0 !important;
+	}
+	/*dropdown*/
+	.d_search[data-bs-popper] {
+	    left: 0px;
+	}
+	/*dropdown search*/
+	.d_search[data-bs-popper] {
+	    left: 0px;
+	    min-width: -webkit-fill-available;
+	}
+	/*Slider start*/
+	.c-c-cap {
+    bottom: 13%;
+    width: 63%;
+    height: 109px;
+	}
+	.s_h1 {
+    font-size: 15px;
+	}
+	.s_p {
+    font-size: 7px;
+    margin-bottom: -1px;
+	}
+	.learn_btn {
+    padding: 0;
+    width: 52px;
+    height: 7px;
+    font-size: 5px;
+	}
+	.learn_btn .fas {
+    padding-left: 4px;
+	}
+	.c_s_ind {
+    bottom: -16.65%;
+    left: -60.5%;
+	}
+	.c_s_ind [data-bs-target] {
+    width: 2px;
+    height: 10px;
+	}
+	.c_c_prev {
+    left: 8%;
+    bottom: -19px;
+    font-size: 7px !important;
+	}	
+	.c_c_next {
+    left: 22%;
+    font-size: 7px !important;
+    bottom: -20px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*top logo*/
+		.logo {
+		margin: 10px;
+		}
+		.l-top {
+	    display: none;
+	}
+
+		/*header start*/
+		.menu ul li a{
+	  padding: 5px 0 !important; 
+
+	}
+	/*dropdown*/
+	.d_search[data-bs-popper] {
+	    left: 0px;
+	}
+	/*dropdown search*/
+	.d_search[data-bs-popper] {
+	    left: 0px;
+	    min-width: -webkit-fill-available;
+	}
+	/*Slider start*/
+	.c-c-cap {
+    bottom: 13%;
+    width: 44%;
+	}
+	.s_h1 {
+    font-size: 30px;
+	}
+	.s_p {
+    font-size: 13px;
+	}
+	.learn_btn {
+	padding: 0;
+    width: 150px;
+    height: 26px;
+    font-size: 13px;
+	}
+	.learn_btn .fas {
+    padding-left: 8px;
+	}
+	.c_s_ind {
+    bottom: -3.65%;
+    left: -60.5%;
+	}
+	.c_c_prev {
+    left: 10%;
+	}	
+	.c_c_next {
+    left: 20%;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.menu ul li a{
+	  padding: 5px 0 !important;
+	}
+	/*dropdown*/
+	.d_search[data-bs-popper] {
+	    left: 0px;
+	}
+	/*dropdown search*/
+	.d_search[data-bs-popper] {
+	    left: 0px;
+	    min-width: -webkit-fill-available;
+		}
+	/*Slider start*/
+	.c-c-cap {
+    bottom: 13%;
+    width: 44%;
+	}
+	.s_h1 {
+    font-size: 30px;
+	}
+	.s_p {
+    font-size: 13px;
+	}
+	.learn_btn {
+	padding: 0;
+    width: 150px;
+    height: 26px;
+    font-size: 13px;
+	}
+	.learn_btn .fas {
+    padding-left: 8px;
+	}
+	.c_s_ind {
+    bottom: -3.65%;
+    left: -60.5%;
+	}
+	.c_c_prev {
+    left: 10%;
+	}	
+	.c_c_next {
+    left: 20%;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	/*Slider start*/
+	.c-c-cap {
+    bottom: 13%;
+;
+}
+	.c_s_ind {
+    bottom: -2.65%;
+    left: -60.5%;
+}
+	.c_c_prev {
+  		left: 11%;
+	}	
+	.c_c_next {
+    left: 19%;
+    }
+    /*Slider end*/
+ }
+
+/*Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+	
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+	/*Slider start*/
+	.c_c_prev {
+  		left: 12%;
+	}	
+	.c_c_next {
+    left: 18%;
+    }
+    /*slider end*/
+}

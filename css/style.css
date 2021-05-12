@@ -1,0 +1,169 @@
+@font-face{
+    src:url(../fonts/Roboto-Black.ttf);
+    font-family: roboto;
+}
+@font-face{
+    src:url(../fonts/Roboto-Light.ttf);
+    font-family: roboto_r;
+}
+@font-face{
+    src:url(../fonts/Lato-Regular.ttf);
+    font-family: lato;
+}
+
+@font-face{
+    src:url(../fonts/Lato-Bold.ttf);
+    font-family: lato_b;
+}
+
+/*common start*/
+body{
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: 
+}
+
+/*common end*/
+
+header{
+
+}
+.c_nav{
+    padding-top: 0;
+}
+.n_brand{
+   padding-top: 0; 
+}
+.logo{
+
+}
+.l-top{
+    font-family: lato;
+    margin-bottom: -8px;
+    padding-top: 0;
+}
+.l_text{
+  font-family: lato_b;
+  font-size: 30px; 
+  font-weight: 500;
+  color: #333333; 
+  text-transform: uppercase;
+}
+.menu{
+
+}
+.menu ul li a{
+  padding: 0 15px !important; 
+  font-size: 16px; 
+  font-weight: 300;
+  color: #8e8e8e !important;
+  text-transform: uppercase;
+}
+.menu ul li a:hover{
+    color: #333333 !important; 
+    
+}
+
+.btn-search{
+    color: #8e8e8e;
+}
+.btn-search:hover{
+    color: #333333;
+}
+.btn-search:focus{
+    box-shadow: none;
+}
+
+.d_search {
+    min-width: 350px;
+    top: 143%;
+}
+.d_search[data-bs-popper] {
+    left: -289px;
+    margin-top: -17px;
+    padding: 8px
+}
+
+.s_btn{
+    padding-left: 0%;
+}
+
+/*slider start*/
+.hero{}
+.c_p_0{
+  padding: 0;
+}
+.c-c-cap{
+    right: 15%;
+    bottom: 43%;
+    text-align: left;
+    width: 45%;
+}
+.c_c_prev, .c_c_next{
+  width: 9%;
+  color: #8e8e8e;
+  align-items: flex-end;
+}
+.s_h1{
+  font-family: lato_b;
+  font-weight: 700;
+  font-size: 60px;
+  color: #f6f9f9;
+}
+.s_p{
+  font-family: roboto_r;
+  font-weight: 700;
+  font-size: 16px;
+  color: #f6f9f9;
+}
+.learn_btn {
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    font-family: 'roboto';
+    font-weight: 700;
+    border-radius: 0%;
+}
+.learn_btn .fas {
+    padding-left: 25px;
+}
+.c_s_ind {
+    bottom: -1.75%;
+    left: -60.5%;
+}
+.c_s_ind [data-bs-target] {
+    width: 2px;
+    height: 16px;
+    background-color: #333;
+    cursor: none;
+}
+
+.c_c_prev, .c_c_next{  
+  font-family: roboto_r;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #8e8e8e;
+}
+.c_c_prev {
+  left: 13%;
+}
+.c_c_prev:hover {
+  color: #333333;
+}
+.c_c_next {
+  right: auto;
+  left: 17%;
+}
+.c_c_next:hover {
+  color: #333333;
+}
+
+.c_prev_icon, .c_next_icon{
+  background-image: none;
+  width: 30px;
+  height: 30px;
+}
+
+
+/*slider end*/

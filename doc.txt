@@ -1,0 +1,4 @@
+color 
+ash: #8e8e8e
+black: #333333
+white: #FFFFFF
